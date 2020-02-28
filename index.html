@@ -1,0 +1,547 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Car Duka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <div class="desktop-navigation-wrapper">
+
+          <div class="logo-wrapper"><a href="index.html"><img src="images/carduka-logo.png" alt=""></a></div>
+          <div class="links-wrapper">
+            <ul>
+              <li><a href="buy-car.html" class="hvr-underline-from-center">BUY A CAR</a></li>
+              <li><a href="car-loans.html" class="hvr-underline-from-center">CAR LOANS</a></li>
+              <li><a href="car-insurance.html" class="hvr-underline-from-center">CAR INSURANCE</a></li>
+              <li><a href="articles.html" class="hvr-underline-from-center">ARTICLES</a></li>
+              <li class="sub-menu-parent" tab-index="0">
+                 <a href="" class="hvr-underline-from-center">Useful Info</a>
+                 <ul class="sub-menu">
+                   <li><a href="https://www.qisjp.co.uk/verify-mileage.php" target="_blank">Verify Mileage</a></li>
+                   <li><a href="https://tims.ntsa.go.ke/login_csp.jsp" target="_blank">Verify Ownership</a></li>
+                 </ul>
+               </li>
+
+            </ul>
+          </div>
+          <div class="search-contact-wrapper">
+            <div class="search overlay">
+              <a class="mk-search-trigger mk-fullscreen-trigger" href="#" id="search-button-listener">
+                <div id="search-button"><i class="fa fa-search"></i></div>
+              </a>
+              <div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+                  <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
+                  <div id="mk-fullscreen-search-wrapper">
+                      <form method="get" id="mk-fullscreen-searchform" action="">
+                          <input type="text" value="" placeholder="Search..." id="mk-fullscreen-search-input">
+                          <i class="fa fa-search fullscreen-search-icon"><input value="" type="submit"></i>
+                      </form>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="contact-header"><i class="fa fa-call"></i></div>
+
+
+          </div>
+      </div>
+
+      <!--================ START MOBILE MENU ================-->
+
+            <div class="mobile-navigation">
+              <div class="visible-mobile">
+              <div class="mobile-logo"><a href="index.html"><img src="images/carduka-logo.png"></a></div>
+              <input type="checkbox" id="toggle" />
+              <label for="toggle">
+                  <i id="bars" class="mobile-menu-icon fa fa-bars fa-fw"></i>
+                  <i id="cross" class="mobile-menu-icon fa fa-times fa-fw"></i>
+              </label>
+          </div>
+
+                <div class="hidden-mobile">
+                    <ul class="mobile-nav-links">
+                      <li><a href="buy-car.html" class="">BUY A CAR</a></li>
+                      <li><a href="car-loans.html" class="">CAR LOANS</a></li>
+                      <li><a href="car-insurance.html" class="">CAR INSURANCE</a></li>
+                      <li><a href="articles.html" class="">ARTICLES</a></li>
+                    </ul>
+
+                    <div class="search-wrapper">
+
+                      <input type="search" name="Search" placeholder="Search...">
+
+                      <button type="submit">Submit</button>
+
+                  </div>
+                </div>
+
+            </div>
+          <!--================ END MOBILE MENU ================-->
+
+    </header>
+
+    <section>
+
+      <div class="home-wrapper">
+
+        <div class="home-banner-wrapper">
+
+          <div class="home-slider">
+            <ul class="bxslider">
+              <li>
+                <img src="images/home-slider1.jpeg"/>
+                <div class="slider-copy"><h1>EVERYTHING ABOUT CARS <br><span> MADE EASY</span></h1><a href="#">DISCOVER MORE</a></div>
+              </li>
+              <li>
+                <img src="images/home-slider2.jpeg" />
+                <div class="slider-copy"><h1>STOP DREAMING IT <br><span> START DRIVING IT</span></h1><a href="#">APPLY NOW</a></div>
+              </li>
+              <li>
+                <img src="images/home-slider3.jpeg" />
+                <div class="slider-copy"><h1>NEED INSURANCE COVER? <br><span> WE'VE GOT YOU COVERED</span></h1><a href="#">APPLY NOW</a></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="value-shop-car">
+            <div id="horizontalTab">
+              <ul class="resp-tabs-list">
+                <li>Shop for your dream car</li>
+                  <li>Value your Car</li>
+
+              </ul>
+              <div class="resp-tabs-container">
+
+                <div class="active-tab">
+                  <form class="" action="index.html" method="post">
+
+                    <ul class="value-wrapper">
+                      <li>
+                        <select>
+                            <option data-display="Origin">Origin</option>
+                            <option value="13">Kenya</option>
+                            <option value="14">Dubai</option>
+                            <option value="15" disabled>Germany</option>
+                        </select>
+                      </li>
+
+                      <li>
+                        <select>
+                            <option data-display="Make">Make</option>
+                            <option value="16">Honda</option>
+                            <option value="17">Hyundai</option>
+                            <option value="18" disabled>Jeep</option>
+                        </select>
+                      </li>
+
+                      <li>
+                        <select>
+                            <option data-display="Model">Model</option>
+                            <option value="19">Astra</option>
+                            <option value="20">Elantra</option>
+                            <option value="21" disabled>Trajet</option>
+                        </select>
+                      </li>
+
+                      <li>
+                        <select>
+                            <option data-display="Year">Year</option>
+                            <option value="22">2008</option>
+                            <option value="23">2011</option>
+                            <option value="24" disabled>2016</option>
+                        </select>
+                      </li>
+
+                      <li><input type="number" name="Price" placeholder="Price"></li>
+
+                      <li><input type="number" name="Mileage" placeholder="Mileage(KM)"></li>
+
+                      <li><button type="submit">Value</button></li>
+                    </ul>
+
+                  </form>
+                </div>
+
+                  <div>
+
+                    <form class="" action="index.html" method="post">
+
+                      <ul class="value-wrapper">
+                        <li>
+                          <select>
+                              <option data-display="Make">Make</option>
+                              <option value="1">Honda</option>
+                              <option value="2">Hyundai</option>
+                              <option value="3" disabled>Jeep</option>
+                          </select>
+                        </li>
+                        <li>
+                          <select>
+                              <option data-display="Model">Model</option>
+                              <option value="4">Astra</option>
+                              <option value="5">Elantra</option>
+                              <option value="6" disabled>Trajet</option>
+                          </select>
+                        </li>
+                        <li>
+                          <select>
+                              <option data-display="Year">Year</option>
+                              <option value="7">2008</option>
+                              <option value="8">2011</option>
+                              <option value="9" disabled>2016</option>
+                          </select>
+                        </li>
+
+                        <li>
+                          <select>
+                              <option data-display="Sub Model">Sub Model</option>
+                              <option value="10">FE(2359cc)</option>
+                              <option value="11">FE(2359cc)</option>
+                              <option value="12" disabled>FE(2359cc)</option>
+                          </select>
+                        </li>
+
+                        <li><input type="number" name="Mileage" placeholder="Mileage(KM)"></li>
+
+                        <li><button type="submit">Value</button></li>
+                      </ul>
+
+                    </form>
+
+                  </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="featured-cars-wrapper">
+          <h3>FEATURED CARS</h3>
+
+          <div id="owl-demo">
+
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured1.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured2.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured3.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured1.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured2.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured3.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured1.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <a href="buy-car-details.html">
+                <h4>Toyota Axio</h4>
+                <img src="images/featured2.png" alt="Owl Image">
+                <div class="cars-details">
+                  <span><h5>Made: </h5><p>2016</p></span>
+                  <span><h5>Mileage: </h5><p>0km</p></span>
+                  <span><h5>Body: </h5><p>Van</p></span>
+                  <span><h5>Engine: </h5><p>1800</p></span>
+                </div>
+                <h1>KSH 4,600,000</h1>
+              </a>
+              <div class="share-featured-cars">
+                <h6>RECOMMEND A FRIEND</h6>
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="home-services">
+          <div class="home-services-columns loan-column">
+            <div class="home-icon"><img src="images/home-loan.png" alt=""></div>
+            <h2><span>CAR</span> LOANS</h2>
+            <p>Get flexible finance for your dream car.</p>
+            <li><a href="#">CALCULATE YOUR LOAN</a></li>
+          </div>
+          <div class="home-services-columns insuarance-column">
+            <div class="home-icon"><img src="images/home-insuarance.png" alt=""></div>
+            <h2><span>CAR</span> INSURANCE</h2>
+            <p>Drive Happy! Get a competitive quote!</p>
+            <li><a href="#">CALCULATE YOUR INSURANCE</a></li>
+          </div>
+          <div class="home-services-columns sell-column">
+            <div class="home-icon"><img src="images/home-sell.png" alt=""></div>
+            <h2><span>SELL</span> YOUR CAR</h2>
+            <p>Get a free vehicle valuation today.</p>
+            <li><a href="#">FILL YOUR CAR DETAILS</a></li>
+          </div>
+        </div>
+
+
+        <div class="cars101-wraper">
+
+          <h2>CARS 101</h2>
+
+          <ul>
+            <li>
+              <div class="image_holder"><img src="images/road-safety.png" alt=""></div>
+              <div class="cars101-columns road-safety">
+                <h3>Time to Address Odometer Tampering</h3>
+                <p>Second-hand car dealerships are common in our major towns. With the assistance of the internet and social media, this business…</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="image_holder"><img src="images/fuel-consumption.png" alt=""></div>
+              <div class="cars101-columns fuel-consumption">
+                <h3>Consumer awareness key in fight against vehicle fraud</h3>
+                <p>Kenya’s used car business is growing robustly on the back of an expanding urban middle class and increasingly flexible financing…</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="image_holder"><img src="images/buyers-guide.png" alt=""></div>
+              <div class="cars101-columns buyers-guide.png">
+                <h3>Unplanned car purchases weakening youth’s savings culture</h3>
+                <p>Kenya has one of the poorest savings culture in Africa. In 2015, the country’s gross national savings stood at 12.7…</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="partners-wrapper">
+
+          <h2>Partners</h2>
+          <ul>
+            <li><img src="images/pat1.png" alt=""></li>
+            <li><img src="images/pat2.png" alt=""></li>
+            <li><img src="images/pat3.png" alt=""></li>
+            <li><img src="images/pat4.png" alt=""></li>
+            <li><img src="images/pat5.png" alt=""></li>
+            <li><img src="images/pat6.png" alt=""></li>
+            <li><img src="images/pat7.png" alt=""></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+          <div class="footer-columns quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-columns footer-contact">
+            <h3>Contact Us</h3>
+            <li><span class="fa fa-phone"></span> <a href="">+254 (711) 041022</a></li>
+            <li><span class="fa fa-envelope"></span> <a href="">contact@carduka.com</a></li>
+
+            <ul>
+              <li><a href="" class="fa fa-facebook"></a></li>
+              <li><a href="" class="fa fa-twitter"></a></li>
+              <li><a href="" class="fa fa-instagram"></a></li>
+              <li><a href="" class="fa fa-youtube"></a></li>
+            </ul>
+          </div>
+          <div class="footer-columns news-letter">
+            <h3>Sign up for newsletter</h3>
+
+            <form class="" action="index.html" method="post">
+              <input type="email" name="Email Address" value="" placeholder="Email Address">
+              <button type="submit" name="button">Subscribe Now</button>
+            </form>
+          </div>
+      </div>
+
+      <div class="copyright-wrapper"><p>&copy; 2019 <a href="">CARDUKA</a> ALL RIGHTS RESERVED. | <a href="">PRIVACY POLICY</a></p></div>
+
+    </footer>
+
+  </div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/easyResponsiveTabs.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.nice-select.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

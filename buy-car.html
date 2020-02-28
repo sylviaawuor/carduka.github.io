@@ -1,0 +1,589 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Car Duka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <div class="desktop-navigation-wrapper">
+
+          <div class="logo-wrapper"><a href="index.html"><img src="images/carduka-logo.png" alt=""></a></div>
+          <div class="links-wrapper">
+            <ul>
+              <li><a href="buy-car.html" class="active-header-link">BUY A CAR</a></li>
+              <li><a href="car-loans.html" class="hvr-underline-from-center">CAR LOANS</a></li>
+              <li><a href="car-insurance.html" class="hvr-underline-from-center">CAR INSURANCE</a></li>
+              <li><a href="articles.html" class="hvr-underline-from-center">ARTICLES</a></li>
+              <li class="sub-menu-parent" tab-index="0">
+                 <a href="" class="hvr-underline-from-center">Useful Info</a>
+                 <ul class="sub-menu">
+                   <li><a href="https://www.qisjp.co.uk/verify-mileage.php" target="_blank">Verify Mileage</a></li>
+                   <li><a href="https://tims.ntsa.go.ke/login_csp.jsp" target="_blank">Verify Ownership</a></li>
+                 </ul>
+               </li>
+
+            </ul>
+          </div>
+          <div class="search-contact-wrapper">
+            <div class="search overlay">
+              <a class="mk-search-trigger mk-fullscreen-trigger" href="#" id="search-button-listener">
+                <div id="search-button"><i class="fa fa-search"></i></div>
+              </a>
+              <div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+                  <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
+                  <div id="mk-fullscreen-search-wrapper">
+                      <form method="get" id="mk-fullscreen-searchform" action="">
+                          <input type="text" value="" placeholder="Search..." id="mk-fullscreen-search-input">
+                          <i class="fa fa-search fullscreen-search-icon"><input value="" type="submit"></i>
+                      </form>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="contact-header"><i class="fa fa-call"></i></div>
+
+
+          </div>
+      </div>
+
+      <!--================ START MOBILE MENU ================-->
+
+            <div class="mobile-navigation">
+              <div class="visible-mobile">
+              <div class="mobile-logo"><a href="index.html"><img src="images/carduka-logo.png"></a></div>
+              <input type="checkbox" id="toggle" />
+              <label for="toggle">
+                  <i id="bars" class="mobile-menu-icon fa fa-bars fa-fw"></i>
+                  <i id="cross" class="mobile-menu-icon fa fa-times fa-fw"></i>
+              </label>
+          </div>
+
+                <div class="hidden-mobile">
+                    <ul class="mobile-nav-links">
+                      <li><a href="buy-car.html" class="active-mobile-link">BUY A CAR</a></li>
+                      <li><a href="car-loans.html" class="">CAR LOANS</a></li>
+                      <li><a href="car-insurance.html" class="">CAR INSURANCE</a></li>
+                      <li><a href="articles.html" class="">ARTICLES</a></li>
+                    </ul>
+
+                    <div class="search-wrapper">
+
+                      <input type="search" name="Search" placeholder="Search...">
+
+                      <button type="submit">Submit</button>
+
+                  </div>
+                </div>
+
+            </div>
+          <!--================ END MOBILE MENU ================-->
+
+    </header>
+
+    <section>
+
+      <div class="buy-car-wrapper">
+        <div class="buy-car-banner">
+          <img src="images/home-slider2.jpeg" alt="">
+          <div class="slider-copy"><h1>Shop for cars, <br><span> all Certified</span></h1></div>
+        </div>
+
+        <div class="buy-car-title">
+          <h2><span>GET YOUR</span> DREAM CAR</h2>
+        </div>
+
+        <div class="buy-car-filter">
+
+
+
+          <form class="car-filter-form" action="index.html" method="post">
+
+            <ul class="buy-car-options">
+              <li>
+                <select>
+                    <option data-display="Origin">Origin</option>
+                    <option value="1">Cars in Kenya</option>
+                </select>
+              </li>
+              <li>
+                <select>
+                    <option data-display="Make">Make</option>
+                    <option value="2">Toyota</option>
+                    <option value="3">Nissan</option>
+                    <option value="4">Honda</option>
+                </select>
+              </li>
+              <li>
+                <select>
+                    <option data-display="Model">Model</option>
+                    <option value="5">Astra</option>
+                    <option value="6">Elantra</option>
+                    <option value="7">Trajet</option>
+                </select>
+              </li>
+
+              <li>
+                <select>
+                  <option data-display="Year">Year</option>
+                  <option value="8">2008</option>
+                  <option value="9">2011</option>
+                  <option value="10">2016</option>
+                </select>
+              </li>
+
+
+              <li>
+                <select>
+                  <option data-display="Price">Price</option>
+                  <option value="11">500000</option>
+                  <option value="12">500001-750000</option>
+                  <option value="13">7500011-1000000</option>
+                </select>
+              </li>
+
+              <li>
+                <select>
+                  <option data-display="Body Type">Body Type</option>
+                  <option value="14">SUV</option>
+                  <option value="15">Sedan</option>
+                  <option value="16">Van</option>
+                </select>
+              </li>
+
+              <li>
+                <select>
+                  <option data-display="Location">Location</option>
+                  <option value="17">Ahero</option>
+                  <option value="18">Awasi</option>
+                  <option value="19">Bomet</option>
+                </select>
+              </li>
+
+              <li>
+                <select>
+                  <option data-display="Condition">Condition</option>
+                  <option value="20">Brand New</option>
+                  <option value="21">Locally Used</option>
+                  <option value="22">Foreign Used</option>
+                </select>
+              </li>
+
+              <li>
+                <select>
+                  <option data-display="Fuel Type">Fuel Type</option>
+                  <option value="23">Petrol</option>
+                  <option value="24">Diesel</option>
+                  <option value="25">Hybrid</option>
+                </select>
+              </li>
+
+              <li>
+                <select>
+                  <option data-display="Color">Color</option>
+                  <option value="26">Black</option>
+                  <option value="27">White</option>
+                  <option value="28">Nude</option>
+                </select>
+              </li>
+
+
+
+              <li><button type="submit">Value</button></li>
+            </ul>
+
+          </form>
+
+          <div class="buy-sort-by">
+
+            <select>
+              <option data-display="Sort By">Sort By</option>
+              <option value="29">Price (Lowest First)</option>
+              <option value="30">Price (Highest First)</option>
+              <option value="31">Year (Latest First)</option>
+              <option value="32">Year (Oldest First)</option>
+              <option value="33">Mileage (Lowest First)</option>
+              <option value="34">Mileage (Highest First)</option>
+              <option value="35">Recently Added (Default)</option>
+            </select>
+
+          </div>
+
+        </div>
+
+          <div class="cars-sale-wrapper">
+
+            <ul>
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured1.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured2.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured3.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured2.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured3.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured1.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured1.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured1.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+              <li>
+                <a href="buy-car-details.html">
+                  <h3>Mercedes A Class</h3>
+                  <img src="images/featured1.png" alt="">
+                  <h6><span class="fa fa-check"></span>Verified Seller</h6>
+                  <div class="cars-details">
+                    <span><h5>Made:</h5><p>2016</p></span>
+                    <span><h5>Mileage:</h5><p>0km</p></span>
+                    <span><h5>Body:</h5><p>Van</p></span>
+                    <span><h5>Engine:</h5><p>1800</p></span>
+                  </div>
+
+                  <h1>KSH 4,600,000</h1>
+                </a>
+                  <div class="contact-share-sale">
+                    <div class="contact-sale">
+                      <a href="#">Contact Seller</a>
+                    </div>
+
+                    <div class="share-sale">
+                      <span class="fa fa-share-alt"></span>
+                      <ul>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+              </li>
+
+
+            </ul>
+          </div>
+
+
+      </div>
+
+    </section>
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+          <div class="footer-columns quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-columns footer-contact">
+            <h3>Contact Us</h3>
+            <li><span class="fa fa-phone"></span> <a href="">+254 (711) 041022</a></li>
+            <li><span class="fa fa-envelope"></span> <a href="">contact@carduka.com</a></li>
+
+            <ul>
+              <li><a href="" class="fa fa-facebook"></a></li>
+              <li><a href="" class="fa fa-twitter"></a></li>
+              <li><a href="" class="fa fa-instagram"></a></li>
+              <li><a href="" class="fa fa-youtube"></a></li>
+            </ul>
+          </div>
+          <div class="footer-columns news-letter">
+            <h3>Sign up for newsletter</h3>
+
+            <form class="" action="index.html" method="post">
+              <input type="email" name="Email Address" value="" placeholder="Email Address">
+              <button type="submit" name="button">Subscribe Now</button>
+            </form>
+          </div>
+      </div>
+
+      <div class="copyright-wrapper"><p>&copy; 2019 <a href="">CARDUKA</a> ALL RIGHTS RESERVED. | <a href="">PRIVACY POLICY</a></p></div>
+
+    </footer>
+
+  </div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/easyResponsiveTabs.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.nice-select.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
